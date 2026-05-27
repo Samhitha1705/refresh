@@ -34,3 +34,15 @@ For confirmation we need to check in the browser by opening localhost:8080
 
 after that in manage Jenkins in the nodes module we can see whether the amd is windows or Linux
 
+---------------------------------------------
+
+after git push in ubuntu systems it may ask
+
+Username for 'https://github.com': Samhitha1705
+
+Password for 'https://Samhitha1705@github.com':
+
+here the password is personal access token where we wiill get it from(github/settings/tokens)
+
+---> here after that it will get directly pushed into the respective branches
+
