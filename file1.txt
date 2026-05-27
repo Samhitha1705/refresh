@@ -1,0 +1,36 @@
+just listing out what i learnt
+
+So when you run:
+
+systemctl status Jenkins
+
+Ubuntu says:
+
+Active means service is found
+
+
+--------------
+
+ss -tulnp | grep 8080
+
+means
+
+This Linux command checks which process/service is using port 8080.
+
+
+-------------
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+means
+
+when we install Jenkins naa after we need to set username pwd through Linux node also means this we will use after we will set our username and pwd in Linux amd installed Jenkins also
+
+
+---------------------------------------------
+
+
+For confirmation we need to check in the browser by opening localhost:8080
+
+after that in manage Jenkins in the nodes module we can see whether the amd is windows or Linux
+
